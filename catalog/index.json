@@ -1,0 +1,38 @@
+{
+    "updated_at":  "2025-10-02T20:08:51.2075240-03:00",
+    "source":  "dpresmanes-fork",
+    "items":  [
+                  {
+                      "n8n_version":  "1.x",
+                      "id":  "lead-capture-google-sheets",
+                      "tags":  [
+                                   "Leads",
+                                   "Sheets",
+                                   "Email"
+                               ],
+                      "version":  "1.0.0",
+                      "category":  "Acquisition",
+                      "description":  "Captura leads desde formularios y los guarda en Google Sheets con notificación por email.",
+                      "name":  "Lead Capture a Google Sheets",
+                      "assistant_url":  "https://chat.openai.com/g/gpt-example-lead-capture",
+                      "json_url":  "https://raw.githubusercontent.com/dpresmanes/n8n-workflows/main/workflows/lead-capture/workflow.json",
+                      "readme_url":  "https://raw.githubusercontent.com/dpresmanes/n8n-workflows/main/workflows/lead-capture/README.md"
+                  },
+                  {
+                      "n8n_version":  "1.x",
+                      "id":  "abandoned-cart-recovery",
+                      "tags":  [
+                                   "Ecommerce",
+                                   "WhatsApp",
+                                   "Email"
+                               ],
+                      "version":  "1.0.0",
+                      "category":  "Retention",
+                      "description":  "Detecta carritos abandonados y envía recordatorios por email/WhatsApp.",
+                      "name":  "Recupero de Carritos Abandonados",
+                      "assistant_url":  "https://chat.openai.com/g/gpt-example-abandoned-cart",
+                      "json_url":  "https://raw.githubusercontent.com/dpresmanes/n8n-workflows/main/workflows/abandoned-cart/workflow.json",
+                      "readme_url":  "https://raw.githubusercontent.com/dpresmanes/n8n-workflows/main/workflows/abandoned-cart/README.md"
+                  }
+              ]
+}
